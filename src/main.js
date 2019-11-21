@@ -1,6 +1,6 @@
-document.onload = init();
-
-function init() {
-  var cat = document.createElement('div');
-  document.querySelector('body').appendChild(cat)
-}
+// document.onload = function () {
+//   init();
+// }
+// function init() {
+//   // document.querySelector('body').append(cat)
+// }

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Messaging App</title>
+
+  <link rel="shortcut icon" href="./img/back_to_school_sm.jpg">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .aside {
+      height: 100%;
+      width: 30%
+    }
+
+    .main {
+      height: 100%;
+      width: 70%
+    }
+
+    body{
+      display:flex;
+      margin:0;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .aside{
+      background-color: #805E73
+    }
+    .userInfo{
+    }
+    .userInfo:hover{
+      background-color: #79586C
+    }
+
+    .name{
+      font-size: 24px;
+      margin: 5% 0% 1% 5%;
+    }
+
+    .activity{
+      height: 10px;
+      width: 10px;
+      background-color: #87BCDE;
+      border-radius: 5px;
+      margin-left: 5%;
+      margin-top: 1%;
+    }
+    .currentActive{
+      height: 10px;
+      width: 10px;
+      background-color: #87BCDE;
+      border-radius: 5px;
+    }
+    .username{
+      font-size: 18px;
+      margin-left: 2%;
+    }
+    .subInfoContainer{
+      display:flex;
+      align-items:center;
+      padding-bottom: 2%;
+      height: 30px;
+    }
+
+    .nav{
+      height: 15%;
+
+    }
+    .currentConvo{
+      padding-left: 5%;
+      margin-top: 2%;
+      padding-bottom: 2%;
+      border-bottom: 1px solid #2D4654
+    }
+    .currentInfo{
+      display:flex;
+      align-items: center;
+    }
+    .currentUserName{
+      margin-left: 2%;
+    }
+
+    .messageContainer{
+      height: 65%;
+    }
+    .footer{
+      width:99.3%;
+      height: 15%;
+      background-color: #2D4654;
+      display: block;
+    }
+
+    .userinput{
+      width: 95%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      margin-top:3%;
+    }
+
+    .fa-paperclip{
+      color: white;
+      margin-left: 2.5%;
+      margin-top:1%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="aside">
+
+    <div class="userInfo">
+      <div class="name">
+        Shane
+      </div>
+      <div class="subInfoContainer">
+        <div class="activity">
+        </div>
+        <div class="username">
+          smcgrath0
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="searchConversations">
+
+    </div>
+
+    <div class="conversations">
+
+    </div>
+  </div>
+
+  <div class="main">
+    <!-- Navbar -->
+
+    <div class="nav">
+      <div class="currentConvo">
+        <div class="currentName">
+          Jimmy Won
+        </div>
+        <div class="currentInfo">
+          <div class="currentActive">
+
+          </div>
+          <div class="currentUserName">
+            WonnyJim - WLC
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="messageContainer">
+
+      <div class="message">
+        nice to meet you
+      </div>
+      <div class="message">
+          asmeeee
+      </div>
+      <div class="message">
+          dfadf
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <input type="text" class="userinput" name="userinput" value="">
+      <div class="actions">
+        <i class="fa fa-paperclip" aria-hidden="true"></i>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- <script src="src/main.js"></script> -->
+</body>
+</html>
