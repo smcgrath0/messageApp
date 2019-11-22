@@ -3,6 +3,7 @@ const path = require('path');
 const connection = require('./connection');
 const express = require('express');
 const users = require('./users');
+const messages = require('./messages');
 
 const server = express();
 let PORT = process.env.PORT;
@@ -10,6 +11,8 @@ let PORT = process.env.PORT;
 connection.connect();
 
 server.use('/users', users);
+
+server.use('/messages', messages);
 
 server.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/index.html'));
